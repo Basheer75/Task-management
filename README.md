@@ -28,3 +28,20 @@ A simple full-stack Task Management System built using the MERN stack (MongoDB, 
 
 ---
 
+## 🚀 How to Run Locally
+
+```bash
+git clone https://github.com/Basheer75/Task-management.git
+
+cd Task-management
+
+# Start backend
+cd server
+npm install
+npm start
+
+# In a new terminal, start frontend
+cd ../client
+npm install
+npm start
+
