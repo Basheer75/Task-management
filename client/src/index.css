@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #070F2B;
+  color: #9290C3;
+  padding: 10px 20px;
+  text-align: center;
+  font-style: italic;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header nav {
+  margin-top: 10px;
+}
+
+.header button {
+  margin: 0 15px;
+  padding: 10px 20px;
+  background-color:white;
+  color: #1B1A55;
+  border: none;
+  cursor: pointer;
+  border-radius: 25%;
+  font-style: italic;
+  font: bolder;
+}
+
+.header button:hover {
+  background-color: #cacdde;
+}
+
+.content {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+.task-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-form label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.task-form input, .task-form textarea, .task-form select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.task-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color:#9290C3;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.task-form button:hover {
+  background-color: #070F2B;
+}
+
+.task-form button:nth-child(2) {
+  background-color: #ccc;
+}
+
+.task-form button:nth-child(2):hover {
+  background-color: #aaa;
+}
